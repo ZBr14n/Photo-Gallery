@@ -1,0 +1,211 @@
+html {
+  margin: 0px;
+}
+
+html {
+  margin: 0px;
+}
+
+.center-margin,
+.content-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.content-wrapper {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  width: 75%;
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    width: 90%;
+  }
+}
+
+.index-title {
+  text-align: center;
+  font-family: "Segoe UI";
+}
+
+.swiss-title {
+  text-align: center;
+  font-family: "Segoe UI";
+}
+
+.switzerland {
+  cursor: default;
+}
+
+.switzerland-photos {
+  display: inline-block;
+  background-image: url(/images/zurich-main-station.jpg?eb93f23a0d415e8a0e17ef4b7dc0704f);
+  border: 2px solid #fff;
+  width: 25%;
+  height: 200px;
+  margin-top: 1em;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  -webkit-transition: 0.4s ease height;
+  transition: 0.4s ease height;
+}
+
+.swiss-section-label {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: -0.7em;
+  color: white;
+  z-index: 15;
+}
+
+.swiss-section-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  -webkit-transition: 0.2s ease opacity;
+  transition: 0.2s ease opacity;
+}
+
+.swiss-section-overlay:hover {
+  opacity: 0.2;
+}
+
+.nyc {
+  cursor: default;
+}
+
+.nyc-title {
+  text-align: center;
+  font-family: "Segoe UI";
+}
+
+.nyc-photos {
+  display: inline-block;
+  background-image: url(/images/IMG_1506.jpg?39496f05b4516e65dd2b1698cc334286);
+  border: 2px solid #fff;
+  width: 25%;
+  height: 200px;
+  margin-top: 1em;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  -webkit-transition: 0.4s ease height;
+  transition: 0.4s ease height;
+}
+
+.nyc-section-label {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: -0.7em;
+  color: white;
+  z-index: 15;
+}
+
+.nyc-section-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  -webkit-transition: 0.2s ease opacity;
+  transition: 0.2s ease opacity;
+}
+
+.nyc-section-overlay:hover {
+  opacity: 0.2;
+}
+
+.dc {
+  cursor: default;
+}
+
+.dc-title {
+  text-align: center;
+  font-family: "Segoe UI";
+}
+
+.dc-photos {
+  display: inline-block;
+  background-image: url(/images/monument2.jpg?a3ea5cded3ba18a99470d3e43bf3ad66);
+  border: 2px solid #fff;
+  width: 25%;
+  height: 200px;
+  margin-top: 1em;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  -webkit-transition: 0.4s ease height;
+  transition: 0.4s ease height;
+}
+
+.dc-section-label {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: -0.7em;
+  color: white;
+  z-index: 15;
+}
+
+.dc-section-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  -webkit-transition: 0.2s ease opacity;
+  transition: 0.2s ease opacity;
+}
+
+.dc-section-overlay:hover {
+  opacity: 0.2;
+}
+
+.album-listing {
+  text-decoration: none;
+  position: relative;
+  left: 12.5%;
+}
+
+.content-wrapper {
+  width: 90% !important;
+}
+
+.photos-wrapper img {
+  margin: 10px 0px;
+  width: 40vw;
+  vertical-align: top;
+}
+
+@media (max-width: 768px) {
+  .photos-wrapper img {
+    width: 100%;
+  }
+}
+
+.photos-wrapper {
+  text-align: center;
+}
+
+.contact-list,
+p,
+a {
+  font-family: "Segoe UI";
+  text-decoration: none;
+  text-align: center;
+}
+

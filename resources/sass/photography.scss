@@ -1,0 +1,133 @@
+@import "_style-links";
+@import "_template";
+@import "_base";
+
+.index-title{
+    text-align: center;
+    font-family: 'Segoe UI';     
+}
+.swiss-title{
+    text-align: center;
+    font-family: 'Segoe UI';    
+}
+
+.switzerland{
+    cursor: default;
+}
+.switzerland-photos{
+    display: inline-block;
+    background-image: url('assets/images/photos/switzerland/zurich-main-station.jpg');    
+    @include style-links;
+}
+
+.swiss-section-label{
+    @include photo-section-label;
+}
+
+.swiss-section-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+    transition: .2s ease opacity;
+}
+
+.swiss-section-overlay:hover{
+    opacity: .2;
+}
+
+// new york
+.nyc{
+    cursor: default;
+}
+.nyc-title{
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+.nyc-photos{
+    display: inline-block;
+    background-image: url('assets/images/photos/nyc/IMG_1506.jpg');    
+    @include style-links;
+}
+
+.nyc-section-label{
+    @include photo-section-label;
+}
+
+.nyc-section-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+    transition: .2s ease opacity;
+}
+
+.nyc-section-overlay:hover{
+    opacity: .2;
+}
+
+
+//D.C.
+// new york
+.dc{
+    cursor: default;
+}
+.dc-title{
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+.dc-photos{
+    display: inline-block;
+    background-image: url('assets/images/photos/dc/monument2.jpg');    
+    @include style-links;
+}
+
+.dc-section-label{
+    @include photo-section-label;
+}
+
+.dc-section-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+    transition: .2s ease opacity;
+}
+
+.dc-section-overlay:hover{
+    opacity: .2;
+}
+
+
+// album listing
+.album-listing{
+    text-decoration: none;    
+
+    position: relative;
+    left: 12.5%;
+}
+.content-wrapper {
+    width: 90% !important;
+    
+}
+.photos-wrapper img{
+    margin: 10px 0px;
+    width: 40vw;
+    
+    vertical-align: top;
+    @media (max-width: $medium) {
+        width: 100%;
+    }
+     
+}
+.photos-wrapper {
+    text-align: center;
+}
+
+.contact-list, p, a{
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    text-align: center;
+}

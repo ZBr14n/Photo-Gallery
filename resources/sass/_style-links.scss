@@ -1,0 +1,22 @@
+@mixin style-links{
+    border: 2px solid #fff;
+    width: 25%;
+    height: 200px;
+    margin-top: 1em;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    transition: .4s ease height; 
+}
+
+@mixin photo-section-label{
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: -.7em;
+    color:white;
+    z-index: 15;    
+}

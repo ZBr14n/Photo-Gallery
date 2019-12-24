@@ -1,0 +1,63 @@
+.content-wrapper{
+    margin-top: 4em;
+    margin-bottom: 4em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+.home-misc{    
+    padding: 2em;
+    
+}
+
+
+@mixin style-links{        
+    border: 2px solid #fff;
+    width: 25%;
+    height: 200px;
+    margin-top: 1em;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    transition: .4s ease height; 
+}
+.home-section-photography{
+    background-image: url('assets/images/photos/swiss_mountains.jpg');
+    @include style-links;
+    float: right;
+}
+.home-section-resume{
+    background-image: url('assets/images/photos/code.jpg');
+    @include style-links;
+    
+}
+
+
+.home-section-label{
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: -.7em;
+    color:white;
+    z-index: 5;
+}
+
+.home-section-overlay {
+    
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+    transition: .2s ease opacity;
+    
+}
+
+.home-section-overlay:hover{
+    opacity: .2;
+}

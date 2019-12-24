@@ -1,0 +1,15 @@
+@import "_base";
+
+.skills-wrapper{
+    display: flex;
+    @media (max-width: $medium){
+        display: block;
+    }
+}
+.skills-column{
+    flex: 1;
+
+}
+.skills-column ul{
+    line-height: 1.8;
+}

@@ -1,0 +1,65 @@
+html {
+  margin: 0px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.page-border {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 8px solid black;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .page-border {
+    display: none;
+  }
+}
+
+.page-banner {
+  width: 100%;
+  height: 325px;
+  min-height: 354px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url("/assets/images/photos/panoramic1.jpg");
+  background-position: 50% 50%;
+}
+
+.nav-container {
+  font-family: sans-serif;
+}
+
+.homeLink {
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
+
+.homeLink:hover {
+  color: #54b3ec;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-right a {
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
+
+.float-right a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
