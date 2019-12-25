@@ -15,10 +15,11 @@
         @include('photography-back-link')
         <div class="photos-wrapper">
             {{-- <img src={{asset('storage/app/public/images/photos/switzerland/olympic_clock.jpg')}} alt="Photo" /> --}}
+                        
+            <img src="../storage/images/photos/switzerland/olympic_truce.jpg" alt="Photo" />
+
+
             
-            <img src={{asset('storage/images/photos/switzerland/olympic_truce.jpg')}} alt="Photo" />
-
-
             {{-- <img src={{asset('storage/images/photos/switzerland/olympic_clock.jpg')}} alt="Photo" />
             <img src={{asset('storage/images/photos/switzerland/olympic_truce.jpg')}} alt="Photo" />
             <img src={{asset('storage/images/photos/switzerland/olympic_museum.jpg')}} alt="Photo" />
