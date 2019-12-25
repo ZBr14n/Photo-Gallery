@@ -29,7 +29,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background-image: url("/assets/images/photos/panoramic1.jpg");
+  background-image: url(/images/panoramic1.jpg?60818d46637f0bac3a81a682ab726013);
   background-position: 50% 50%;
 }
 

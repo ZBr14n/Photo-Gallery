@@ -25,12 +25,13 @@
     transition: .4s ease height; 
 }
 .home-section-photography{
-    background-image: url('assets/images/photos/swiss_mountains.jpg');
+    // background-image: url('assets/images/photos/swiss_mountains.jpg');
+    background-image: url('../storage/swiss_mountains.jpg');
     @include style-links;
     float: right;
 }
 .home-section-resume{
-    background-image: url('assets/images/photos/code.jpg');
+    background-image: url('../storage/code.jpg');
     @include style-links;
     
 }
