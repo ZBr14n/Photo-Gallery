@@ -18,8 +18,9 @@
                         
             <img src="../../storage/images/photos/switzerland/olympic_truce.jpg" alt="Photo" />
             <img src="../storage/images/photos/switzerland/olympic_truce.jpg" alt="Photo" />
-            <img src="{{ asset('storage/profile-pic.jpg') }}" alt="Photo" />
-
+            <img src="{{asset('images/code.jpg')}}" alt="Photo" />
+            <img src="{{asset('images/my_images/photos/dc/lincoln.jpg')}}" alt="Photo" />
+            
 
 
             {{-- <img src={{asset('storage/images/photos/switzerland/olympic_clock.jpg')}} alt="Photo" />
