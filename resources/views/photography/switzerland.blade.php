@@ -14,7 +14,7 @@
         
         @include('photography-back-link')
         <div class="photos-wrapper">
-            <img src="../../storage/images/photos/switzerland/olympic_clock.jpg" alt="Photo" />
+            <img src="{{asset('storage/app/public/images/photos/switzerland/olympic_clock.jpg')}}" alt="Photo" />
 
 
 
