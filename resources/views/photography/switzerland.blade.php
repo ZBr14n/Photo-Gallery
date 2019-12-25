@@ -8,19 +8,39 @@
 @section('info')
         
     <div class="content-wrapper">
-        <div class="swiss-title"><h1>Switzerland</h1></div>
-            
+        <div class="swiss-title">
+            <h1>Switzerland</h1>            
+        </div>
+        
+        @include('photography-back-link')
         <div class="photos-wrapper">
-            <img src="/assets/images/photos/switzerland/olympic_clock.jpg" alt="Photo" />
+            <img src={{asset('storage/images/photos/switzerland/olympic_clock.jpg')}} alt="Photo" />
+            <img src={{asset('storage/images/photos/switzerland/olympic_truce.jpg')}} alt="Photo" />
+            <img src={{asset('storage/images/photos/switzerland/olympic_museum.jpg')}} alt="Photo" />
+            <img src={{asset('storage/images/photos/switzerland/castle.jpg')}} alt="Photo" />
+            <img src={{asset('storage/images/photos/switzerland/mountain2.jpg')}} alt="Photo" />
+            <img src={{asset('storage/images/photos/switzerland/mountain3.jpg')}} alt="Photo" />
+            <img src={{asset('storage/images/photos/switzerland/panoramic2.jpg')}} alt="Photo" />
+            <img src={{asset('storage/images/photos/switzerland/mountain.jpg')}} alt="Photo" />
+            <img src={{asset('storage/images/photos/switzerland/castle_cage.jpg')}} alt="Photo" />
+            
+
+
+
+            {{-- <img src="/assets/images/photos/switzerland/olympic_clock.jpg" alt="Photo" />
             <img src="/assets/images/photos/switzerland/olympic_truce.jpg" alt="Photo" />
             <img src="/assets/images/photos/switzerland/olympic_museum.jpg" alt="Photo" />
-
             <img src="/assets/images/photos/switzerland/castle.jpg" alt="Photo" />                        
             <img src="/assets/images/photos/switzerland/mountain2.jpg" alt="Photo" />
             <img src="/assets/images/photos/switzerland/mountain3.jpg" alt="Photo" />
             <img src="/assets/images/photos/switzerland/panoramic2.jpg" alt="Photo" />
             <img src="/assets/images/photos/switzerland/mountain.jpg" alt="Photo" />
-            <img src="/assets/images/photos/switzerland/castle_cage.jpg" alt="Photo" />
+            <img src="/assets/images/photos/switzerland/castle_cage.jpg" alt="Photo" /> --}}
         </div>
+
+        <br />
+        <br />
+        <br />
+        @include('photography-back-link')
     </div>
 @endsection
