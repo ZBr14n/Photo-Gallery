@@ -7,7 +7,7 @@
 @section('title') Brian Lam @endsection
 
 @section('info')    
-    
+{{asset('images/Profile.jpg')}}
     <div class="page-banner">            
 
     </div>
