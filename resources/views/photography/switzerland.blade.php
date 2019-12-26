@@ -18,7 +18,7 @@
                         
             {{-- <img src="storage/images/photos/switzerland/olympic_truce.jpg" alt="Photo" /> --}}
             <img src="storage/code.jpg" alt="Photo" />
-            <img src="{{url('/images/cube.jpg')}}" alt="Image" />
+            <img src={{url('/images/cube.jpg')}} alt="Image" />
             
 
 
