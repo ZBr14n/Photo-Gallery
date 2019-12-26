@@ -1,6 +1,6 @@
 @extends('layouts.MyHeader')
 @push('styles')
-    <link href="{{asset('css/override_footer.css')}}" rel="stylesheet" type="text/css">    
+    <link href={{url('/css/override_footer.css')}} rel="stylesheet" type="text/css">    
 @endpush
 
 @section('title') Switzerland @endsection
