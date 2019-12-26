@@ -23,7 +23,7 @@
             <img src={{url('/images/my_images/photos/switzerland/mountain2.jpg')}} alt="Photo" />
             <img src={{url('/images/my_images/photos/switzerland/mountain3.jpg')}} alt="Photo" />
             <img src={{url('/images/my_images/photos/switzerland/panoramic2.jpg')}} alt="Photo" />
-            <img src={{url('/images/my_images/photos/switzerland/mountain1.jpg')}} alt="Photo" />
+            <img src={{url('/images/my_images/photos/switzerland/mountain.jpg')}} alt="Photo" />
             <img src={{url('/images/my_images/photos/switzerland/castle_cage.jpg')}} alt="Photo" />
 
             
