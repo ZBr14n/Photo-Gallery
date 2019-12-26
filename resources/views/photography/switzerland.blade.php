@@ -15,8 +15,6 @@
         
         @include('photography-back-link')
         <div class="photos-wrapper">
-            {{url('/images/my_images/photos/switzerland/olympic_clock.jpg')}}
-            {{url('/images/cube.JPG')}}
 
             <img src={{url('/images/my_images/photos/switzerland/olympic_clock.jpg')}} alt="Photo" />
                         
