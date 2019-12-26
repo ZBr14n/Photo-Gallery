@@ -20,8 +20,8 @@
             <img src="storage/code.jpg" alt="Photo" />
             <img src={{url('/images/cube.jpg')}} alt="Image" />
             
-
-
+            {{url('/images/my_images/photos/switzerland/olympic_clock.jpg')}}
+            {{url('/images/cube.jpg')}}
 
 
             {{-- <img src={{asset('storage/images/photos/switzerland/olympic_clock.jpg')}} alt="Photo" />
