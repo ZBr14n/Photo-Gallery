@@ -1,5 +1,10 @@
 # Welcome To My Personal Photo Gallery
 
+https://fathomless-shore-36561.herokuapp.com/
+
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Note: currently investigating why a few images in the website failed to load. Also, when deploying a fix, the code for background image works in local development, but not on production.`
+
+
 
 ## What I learned:
 I felt the need to brush up on writing HTML and CSS, so I created a photo gallery that is an extension for my professional profile at http://brianlam.info/ 
