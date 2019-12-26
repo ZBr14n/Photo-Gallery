@@ -14,14 +14,18 @@
         
         @include('photography-back-link')
         <div class="photos-wrapper">
+            {{url('/images/my_images/photos/switzerland/olympic_clock.jpg')}}
+            {{url('/images/cube.JPG')}}
+
             <img src={{url('/images/my_images/photos/switzerland/olympic_clock.jpg')}} alt="Photo" />
                         
             {{-- <img src="storage/images/photos/switzerland/olympic_truce.jpg" alt="Photo" /> --}}
-            <img src="storage/code.jpg" alt="Photo" />
-            <img src={{url('/images/cube.jpg')}} alt="Image" />
             
-            {{url('/images/my_images/photos/switzerland/olympic_clock.jpg')}}
-            {{url('/images/cube.jpg')}}
+            <img src={{url('/images/cube.JPG')}} alt="Image" />
+            <img src={{url('/images/Profile.jpg')}} alt="Image" />
+            <img src={{url('/images/museum.JPG')}} alt="Image" />
+            
+
 
 
             {{-- <img src={{asset('storage/images/photos/switzerland/olympic_clock.jpg')}} alt="Photo" />
