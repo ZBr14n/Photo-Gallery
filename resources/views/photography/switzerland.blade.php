@@ -1,5 +1,6 @@
 @extends('layouts.MyHeader')
 @push('styles')
+    {{-- <link href="//fathomless-shore-36561.herokuapp.com/css/override_footer.css" rel="stylesheet" type="text/css">     --}}
     <link href={{url('/css/override_footer.css')}} rel="stylesheet" type="text/css">    
 @endpush
 
