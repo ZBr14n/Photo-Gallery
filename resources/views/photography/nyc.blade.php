@@ -20,11 +20,11 @@
 
             <img src={{url('/images/my_images/photos/nyc/tower4.JPG')}} alt="Photo" />
             <img src={{url('/images/my_images/photos/nyc/cube.JPG')}} alt="Photo" />
-            <img src={{url('/images/my_images/photos/nyc/museum.JPG')}} alt="Photo" />
+            <img src={{url('/images/my_images/photos/nyc/soho.JPG')}} alt="Photo" />            
             <img src={{url('/images/my_images/photos/nyc/tower.JPG')}} alt="Photo" />
             <img src={{url('/images/my_images/photos/nyc/tower2.JPG')}} alt="Photo" />
             <img src={{url('/images/my_images/photos/nyc/tower3.JPG')}} alt="Photo" />
-            <img src={{url('/images/my_images/photos/nyc/soho.JPG')}} alt="Photo" />
+            <img src={{url('/images/my_images/photos/nyc/museum.JPG')}} alt="Photo" />
             <img src={{url('/images/my_images/photos/nyc/shrine.JPG')}} alt="Photo" />
             <img src={{url('/images/my_images/photos/nyc/park.JPG')}} alt="Photo" />
             <img src={{url('/images/my_images/photos/nyc/columbia_uni.JPG')}} alt="Photo" />

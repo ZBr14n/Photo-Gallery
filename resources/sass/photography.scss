@@ -15,11 +15,10 @@
     cursor: default;
 }
 
-// {{url('/images/cube.JPG')}}
+
 .switzerland-photos{
-    display: inline-block;
-    // background-image: url('../storage/images/photos/switzerland/zurich-main-station.jpg');    
-    background-image: url('/images/my_images/photos/switzerland/zurich-main-station.jpg');
+    display: inline-block;    
+    background-image: url("../images/zurich-main-station.jpg");
     @include style-links;
 }
 
@@ -49,9 +48,8 @@
 }
 
 .nyc-photos{
-    display: inline-block;
-    // background-image: url('../storage/images/photos/nyc/IMG_1506.jpg');    
-    background-image: url('/images/my_images/photos/nyc/IMG_1506.jpg');    
+    display: inline-block;    
+    background-image: url('../images/IMG_1506.jpg');    
     @include style-links;
 }
 
@@ -84,7 +82,7 @@
 
 .dc-photos{
     display: inline-block;
-    background-image: url('/images/my_images/photos/dc/monument2.jpg');    
+    background-image: url('../images/monument2.jpg');    
     @include style-links;
 }
 
