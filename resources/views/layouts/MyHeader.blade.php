@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>@yield('title')</title>     
-        <link rel="icon" href="{{ url('images/logo.png') }}" type="image/x-icon"/> 
+        <link rel="icon" href="{{ url('/images/logo.png') }}" type="image/x-icon"/> 
         <link href="{{mix('css/swiss.css')}}" rel="stylesheet">          
         <link href="{{mix('css/profile-pic.css')}}" rel="stylesheet">    
         <link href="{{mix('css/home-section.css')}}" rel="stylesheet">           
